@@ -3,12 +3,10 @@ import { Component } from '@angular/core';
   template: `
     <h2>Your Add Submit Page</h2>
    
- <input type="file"  #n/>
+ <input type="file"  />
 <img src="images/umr.png" />
-<button (click)="type(n)">Type</button>
+
 `})
-export class AddSubmitComponent { 
-  type(n){
-    console.log(n);
-  }
+export class AddSubmitComponent {
+
 }
